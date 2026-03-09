@@ -1,4 +1,4 @@
-export async function Page({ params }: PageProps<"/[id]">) {
+export default async function Page({ params }: PageProps<"/[id]">) {
   const { id } = await params;
 
   return (
